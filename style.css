@@ -161,17 +161,17 @@ footer {
 }
 
 header {
-    --startY: -100%; /*de cima para baixo*/
+    --startY: -100%; /*from top to bottom*/
     animation: move .2s;
 }
 
 .card {
-    --delay: .4s; /*colocar função no html com o tempo pretendido*/
+    --delay: .4s; /*put function in html with the desired time*/
     animation: appear .4s var(--delay) backwards; /*backwards*/
 }
 
 footer {
-    --startY: 100%; /*de baixo para cima*/
+    --startY: 100%; /*upwards*/
     animation: move .8s;
 }
 
