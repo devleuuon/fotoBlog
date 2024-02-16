@@ -87,7 +87,7 @@ h1 {
     background: #FFF;
     border-radius: 0.8rem;
     cursor: pointer;
-    overflow: hidden; /*não deixa imagem vazar da caixa*/
+    overflow: hidden; /*Don't let the image leak from the box'*/
 }
 
 .card img {
